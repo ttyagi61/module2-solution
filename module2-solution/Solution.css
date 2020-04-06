@@ -1,0 +1,46 @@
+h1 { text-align: center;}
+
+.maincards {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  position: relative;
+}
+
+.main {
+  background-color: grey;
+  color: white;
+  /*padding: 1rem;*/
+  border: 2px solid black;
+  position: relative;
+}
+
+.card {
+  background-color: MAROON;
+  color: white;
+  width: 40%;
+  height: 30px; 
+  text-align: center;	
+  border: 2px solid black;
+  box-sizing: border-box;
+  float: right;
+}
+
+p {
+	clear: right;
+}
+
+@media (min-width: 767px) {
+  .maincards { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .maincards { 
+  grid-template-columns: repeat( 2, 1fr);}
+
+}
+
+@media (min-width: 992px) {
+  .maincards { grid-template-columns: repeat(3, 1fr); }
+}
