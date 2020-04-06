@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module 2 Solution</title>
+  <link rel="stylesheet" href="solution.css">
+</head>
+<body>
+
+
+
+<div>
+<h1>My Menu</h1>
+</div>
+<div class="maincards">
+
+<div class="main">
+  <div class="card">Vegetarianism</div>
+  	<p>Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.</p>
+</div>
+
+<div class="main">
+  <div class="card">Non-vegetarian</div>
+  	<p>Non-vegetarian (non-veg) is an Indian English word that is used to refer to meaty food and also to a person who is a meatarian not a vegetarian i.e. someone who consumes meat, especially as a major source of protein.[1][2] Although the intended meaning is readily understood, these terms are not common parlance in the Anglosphere (English-speaking countries) where meat consumption is the norm, vegetarianism is a rarity, and veganism is a novelty.</p>
+</div>
+
+<div class="main">
+  <div class="card">Veganism</div>
+  	<p>Veganism is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.[b] A follower of the diet or the philosophy is known as a vegan.[c] Distinctions may be made between several categories of veganism. Dietary vegans (also known as "strict vegetarians") refrain from consuming meat, eggs, dairy products, and any other animal-derived substances.</p>
+</div>
+
+</div>
+</body>
+</html>
