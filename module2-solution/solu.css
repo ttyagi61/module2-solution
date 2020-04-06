@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section {
+    background-color: Grey;
+    border: 3px solid black;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    margin: 0 0 0 60%;
+    font-size: 1.20em;
+    text-align: center;
+    padding: 2px 0;
+    width: 40%;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+
+#icecream h2 {
+    background-color: #d59898;
+    color: white;
+}
+
+#yoghurt h2 {
+    background-color: #c14543;
+    color: white;
+}
+
+#fruitjuice h2 {
+    background-color: #e5d198;
+    color: white;
+}
+
+
+
+@media (min-width: 992px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 30%;
+    }
+
+    #icecream {
+        margin-left: 2.5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 46.25%;
+    }
+    #icecream {
+        margin-left: 2.5%;
+    }
+
+    #fruitjuice {
+        clear: left;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    #fruitjuice h2 {
+        margin: 0 0 0 80%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+}
